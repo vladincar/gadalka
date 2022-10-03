@@ -1,0 +1,44 @@
+* {
+    --size1:5.052rem;
+    --size2:3.79rem;
+    --size3:3.6rem;
+    --size4:2.843rem;
+    --size5:2.133rem;
+    --size6:1.6rem;
+    --size7:1.2rem;
+
+    --black:#020204;
+    --yellow:#DED9A1;
+    --red:#FF6574;
+
+    /*margins*/
+    --main-margin:141px;
+    --sub-margin:118px;
+  }
+
+  @media only screen and (max-width: 834px) {
+    * {
+        --size1:3.418rem;
+        --size2:2.734rem;
+        --size3:2.6rem;
+        --size4:2.188rem;
+        --size5:1.75rem;
+        --size6:1.4rem;
+            /*margins*/
+    --main-margin:95px;
+    --sub-margin:79px;
+      }
+  }
+  @media only screen and (max-width: 390px) {
+    * {
+        --size1:2.903rem;
+        --size2:2.419rem;
+        --size3:2.016rem;
+        --size4:2.0rem;
+        --size5:1.68rem;
+        --size6:1.4rem;
+            /*margins*/
+    --main-margin:76px;
+    --sub-margin:55px;
+      }
+  }
